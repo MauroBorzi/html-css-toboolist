@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -66,8 +65,8 @@ header {
 }
 
 .sectionprime {
-  margin-bottom: 10px solid #f6f8fa;
-  margin-left: 100px;
+  border-bottom: 10px solid #f6f8fa;
+  padding-left: 100px;
 }
 
 .thumb {
@@ -101,7 +100,7 @@ header {
 
 .sectioncentral {
   font-size: 50px;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .sectioncentral .destriction {
