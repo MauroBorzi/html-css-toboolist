@@ -16,7 +16,7 @@
   max-width: 2500px;
   margin: 0 auto;
   background-color: #ffffff;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .d-inlineblock {
@@ -168,4 +168,8 @@ header {
   height: 35px;
   padding: 15px;
   margin: 15px;
+}
+
+#nostyle {
+  list-style-type: none;
 }
