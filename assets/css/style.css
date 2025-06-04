@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: ;
+  margin: 0 auto;
+}
+
+header {
+  height: 120px;
+  background-color: aqua;
+}
+
+.thumb {
+  padding-top: 20px;
+  width: 80px;
+  vertical-align: middle;
+}
+
+.lt {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: initial;
+}
