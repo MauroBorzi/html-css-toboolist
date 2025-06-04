@@ -5,26 +5,75 @@
 }
 
 .container {
-  max-width: ;
+  max-width: 2500px;
   margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+
+.d-inlineblock {
+  display: inline-block;
+}
+
+.box1 {
+  width: 120px;
+  height: 50px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 40px;
+}
+
+.circlecheck {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* per fare il cerchio */
+  background-color: transparent;
+  border: 2px solid #77ae9d;
+  color: #77ae9d;
+  text-align: center;
+  line-height: 52px;
+}
+
+body {
+  background-color: #f6f8fa;
 }
 
 header {
+  height: 150px;
+  background-color: white;
+}
+
+.sectionprime {
   height: 120px;
-  background-color: aqua;
 }
 
 .thumb {
-  padding-top: 20px;
+  padding-top: 30px;
   width: 80px;
   vertical-align: middle;
 }
 
 .lt {
-  display: inline-block;
   vertical-align: middle;
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 80px;
   font-weight: bold;
-  text-transform: initial;
+  text-transform: capitalize;
+}
+
+
+.at {
+  background-color: #44abf2;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.as {
+  background-color: #ffffff;
+  border: 4px solid #d2d2d2;
+  color: #d2d2d2;
 }
