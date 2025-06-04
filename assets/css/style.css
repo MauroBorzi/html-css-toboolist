@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.sectioncentral .space {
+  padding-top: 80px;
+}
+
+.sectioncentral .spaceplus {
+  padding-top: 25px;
+}
+
 .container {
   max-width: 2500px;
   margin: 0 auto;
@@ -25,15 +33,29 @@
 }
 
 .circlecheck {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  /* per fare il cerchio */
   background-color: transparent;
-  border: 2px solid #77ae9d;
+  border: 4px solid #77ae9d;
   color: #77ae9d;
   text-align: center;
-  line-height: 52px;
+  line-height: 50px;
+}
+
+.circlecross {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 4px solid #c2776e;
+  color: #c2776e;
+  text-align: center;
+  line-height: 50px;
+}
+
+.checkdim {
+  font-size: 30px;
 }
 
 body {
@@ -78,4 +100,72 @@ header {
   color: #d2d2d2;
 }
 
-.sectioncentral {}
+.sectioncentral {
+  font-size: 50px;
+}
+
+.sectioncentral .destriction {
+  background-color: #44abf2;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.sectioncentral .destriction2 {
+  background-color: #9c75e6;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.sectioncentral .destriction3 {
+  background-color: #66b49f;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.sectioncentral .destriction4 {
+  background-color: #f19f2f;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.sectioncentral .destriction5 {
+  background-color: #d863a1;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.sectioncentral .destriction6 {
+  background-color: #b0c923;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 30px;
+  width: 90px;
+  height: 35px;
+  padding: 15px;
+  margin: 15px;
+}
